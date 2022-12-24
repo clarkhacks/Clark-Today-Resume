@@ -33,12 +33,14 @@
   margin-top: 1em;
   margin-bottom: 1em;
 }
+.notion-asset-wrapper iframe{
+  background-color: #fff;
+}
 
 .notion-asset-wrapper-video > div,
 .notion-asset-wrapper-video video {
   width: 100% !important;
 }
-
 .notion-header .notion-nav-header {
   max-width: 1100px;
   margin: 0 auto;
@@ -342,7 +344,10 @@
   border-radius: 0;
   background: none !important;
 }
-
+.dark-mode > div > div > .notion-frame > div > main > .notion-page-content > article > .notion-block-7dcb5c5d383f45b19549057639a78261 > div > iframe{
+  background-color: #2f3437;
+  color: white!important;
+}
 .notion-header {
   background: hsla(0, 0%, 100%, 0.8);
   backdrop-filter: saturate(180%) blur(16px);
