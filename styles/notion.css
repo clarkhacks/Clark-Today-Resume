@@ -344,6 +344,7 @@
   border-radius: 0;
   background: none !important;
 }
+/* for feedback widget */
 .dark-mode > div > div > .notion-frame > div > main > .notion-page-content > article > .notion-block-7dcb5c5d383f45b19549057639a78261 > div > iframe{
   background-color: #2f3437;
   color: white!important;
