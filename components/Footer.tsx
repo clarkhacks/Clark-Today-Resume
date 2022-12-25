@@ -6,7 +6,7 @@ import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 import { useDarkMode } from '../lib/use-dark-mode'
 
 // TODO: merge the data and icons from PageSocial with the social links in Footer
-
+const currentYear = new Date().getFullYear()
 export const FooterImpl: React.FC = () => {
   const [hasMounted, setHasMounted] = React.useState(false)
   const { isDarkMode, toggleDarkMode } = useDarkMode()
@@ -25,7 +25,7 @@ export const FooterImpl: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Copyright 2022 Clark Weckmann</div>
+      <div className={styles.copyright}>Copyright {currentYear} Clark Weckmann</div>
 
       <div className={styles.social}>
       {hasMounted && (
